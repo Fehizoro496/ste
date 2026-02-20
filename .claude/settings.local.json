@@ -7,7 +7,9 @@
       "Bash(node --version:*)",
       "Bash(node -e \" const fs = require\\(''fs''\\); const path = require\\(''path''\\); const { execSync } = require\\(''child_process''\\); // PPTX is a ZIP file - use node to extract const JSZip = require.resolve ? null : null; console.log\\(''Trying to unzip PPTX...''\\); // Use built-in zlib or try PowerShell \")",
       "Bash(powershell -Command:*)",
-      "Bash(node -e:*)"
+      "Bash(node -e:*)",
+      "Bash(powershell.exe -NoProfile -Command \":*)",
+      "Bash(node:*)"
     ]
   }
 }
